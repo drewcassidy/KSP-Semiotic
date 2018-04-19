@@ -1,3 +1,4 @@
 #!/bin/bash
 
-convert Sprites.png -crop 128x128 +adjoin Semiotic_%02d.png
+mkdir -p Sprites
+convert Sprites.png -crop 128x128 +adjoin Sprites/Semiotic_%02d.png
